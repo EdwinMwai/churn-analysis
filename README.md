@@ -1,5 +1,5 @@
 # churn-analysis 
-
+![Alt text](Visualizations/image.webp)
 ## **Business Understanding**
 
 In today's competitive landscape, understanding and effectively managing customer churn is paramount for businesses aiming to sustain growth and profitability. A churn predictive model serves as a valuable tool in this endeavor by providing insights into customer behavior and predicting which customers are likely to discontinue their relationship with the company
@@ -36,3 +36,13 @@ Develop a reliable and precise predictive models capable of forecasting customer
 
 6. **Evaluation metrics:** Define appropriate evaluation metrics, such as accuracy, precision, recall, F1-score, and area under the ROC curve (AUC), to assess the performance of the churn prediction model objectively.
 ---
+
+### Visualizations of our analysis
+![Alt text](Visualizations/output.png)
+![Alt text](Visualizations/histogram1.png)
+![Alt text](Visualizations/histogram2.png)
+![Alt text](Visualizations/histogram3.png)
+![Alt text](Visualizations/histogram4.png)
+![Alt text](Visualizations/ditributions.png)
+![Alt text](Visualizations/boxplot.png)
+![Alt text](Visualizations/correlation.png)
