@@ -1,11 +1,12 @@
-# churn-analysis
---- 
+# Churn Analysis
+
+---
 
 ![Alt text](Visualizations/image.webp)
 
-## **Business Understanding**
+## Business Understanding
 
-In today's competitive landscape, understanding and effectively managing customer churn is paramount for businesses aiming to sustain growth and profitability. A churn predictive model serves as a valuable tool in this endeavor by providing insights into customer behavior and predicting which customers are likely to discontinue their relationship with the company
+In today's competitive landscape, understanding and effectively managing customer churn is paramount for businesses aiming to sustain growth and profitability. A churn predictive model serves as a valuable tool in this endeavor by providing insights into customer behavior and predicting which customers are likely to discontinue their relationship with the company.
 
 The business understanding of a churn predictive model encompasses several key aspects:
 
@@ -17,30 +18,34 @@ The business understanding of a churn predictive model encompasses several key a
 
 **Customer Lifetime Value:** Understanding churn dynamics is crucial for estimating and maximizing customer lifetime value (CLV). By accurately predicting churn, businesses can identify opportunities to extend customer relationships, increase repeat purchases, and maximize revenue potential over the long term.
 
-## **Problem Statement**
+## Problem Statement
 
 Customer churn presents a significant challenge for businesses across various industries, leading to revenue loss and decreased market share. In order to mitigate this issue, there is a critical need to develop an effective churn prediction model that can accurately forecast which customers are at risk of leaving. This model should enable companies to intervene proactively with targeted retention efforts, thereby reducing churn rates and improving overall customer retention.
 
-## **Main Objective**
-Develop a reliable and precise predictive models capable of forecasting customer churn risks, enabling companies to intervene with tailored retention measures before customers defect. Utilize insights from these models to devise and execute impactful retention strategies, including targeted marketing initiatives, personalized incentives, enhanced customer service, and product enhancements.
+## Main Objective
+
+Develop a reliable and precise predictive model capable of forecasting customer churn risks, enabling companies to intervene with tailored retention measures before customers defect. Utilize insights from these models to devise and execute impactful retention strategies, including targeted marketing initiatives, personalized incentives, enhanced customer service, and product enhancements.
 
 ### Specific Objectives
+
 ---
 
-1. **Data preprocessing:** Cleanse and preprocess the data to handle missing values, outliers, and inconsistencies, ensuring the accuracy and  reliability of the predictive model.
+1. **Data Preprocessing:** Cleanse and preprocess the data to handle missing values, outliers, and inconsistencies, ensuring the accuracy and reliability of the predictive model.
 
-2. **Feature selection:** Select relevant features that have a significant impact on churn prediction while reducing dimensionality and improving model performance.
+2. **Feature Selection:** Select relevant features that have a significant impact on churn prediction while reducing dimensionality and improving model performance.
 
-3. **Model selection:** Evaluate various machine learning algorithms and statistical techniques to identify the most suitable model for predicting customer churn, considering factors such as accuracy, interpretability, and scalability.
+3. **Model Selection:** Evaluate various machine learning algorithms and statistical techniques to identify the most suitable model for predicting customer churn, considering factors such as accuracy, interpretability, and scalability.
 
-4. **Model training and validation:** Train the chosen model on a subset of the data and validate its performance using cross-validation techniques to ensure generalizability and robustness.
+4. **Model Training and Validation:** Train the chosen model on a subset of the data and validate its performance using cross-validation techniques to ensure generalizability and robustness.
 
-5. **Hyperparameter tuning:** Optimize the parameters of the selected model using techniques such as grid search or random search to improve predictive accuracy and minimize overfitting.
+5. **Hyperparameter Tuning:** Optimize the parameters of the selected model using techniques such as grid search or random search to improve predictive accuracy and minimize overfitting.
 
-6. **Evaluation metrics:** Define appropriate evaluation metrics, such as accuracy, precision, recall, F1-score, and area under the ROC curve (AUC), to assess the performance of the churn prediction model objectively.
+6. **Evaluation Metrics:** Define appropriate evaluation metrics, such as accuracy, precision, recall, F1-score, and area under the ROC curve (AUC), to assess the performance of the churn prediction model objectively.
+
 ---
 
-### Visualizations of our analysis
+### Visualizations of Our Analysis
+
 ![Alt text](Visualizations/output.png)
 
 ![Alt text](Visualizations/histogram1.png)
@@ -51,7 +56,7 @@ Develop a reliable and precise predictive models capable of forecasting customer
 
 ![Alt text](Visualizations/histogram4.png)
 
-![Alt text](Visualizations/ditributions.png)
+![Alt text](Visualizations/distributions.png)
 
 ![Alt text](Visualizations/boxplot.png)
 
