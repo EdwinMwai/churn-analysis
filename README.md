@@ -107,11 +107,31 @@ It is also evident that most features are normally distributed wit exception of 
 
 There is also class imbalance of the dependent varible which needed to be adressed
 
+## Model Development
+
+I started by developing a baseline model which was a logistic regression model. the model did not perform very well with the best metric being accuracy score at 0.75 and the others below 0.5.
+
+Then I traine four differnt models on the same data set. The four model were:
+- Random forest classifier
+- Gradient boosting classifier
+- Gaussian naive classifier
+- SVC
+
+I iterated through these four models using a function and output different metrics to help me pick the best model. 
+The output metrics were precision score, accuracy score, recall score and f1 score. I also plot the confusion matrix for the better understanding of true positives, false positives, true negatives and false negatives. Out of the above models the Gradient boosting classifier performed better than the other models.
+
+I decided to fine tune gradient boosting classifier
+
+# Fine Tunning the model
+
+I set a parameter grid to be used in the hyperparameter tuning. The parameters to be tuned were maximum depth, learning rate and n-estimator. I also set a cross validation of 5 folds.
+
+The model metrics improved with recall score being 0.77 from 0.74, F1 score being 0.80 from 0.76 and ROC being 0.90.
+This was the best that i could achieve from this model using this data set.
 
 
 # Model Analysis
 
-My final model was a Gradient Boosting classifier, which can predict customer churn with 83% recall.
 
 ## Metric Used
 In evaluating my model i used two metrics:
@@ -137,6 +157,8 @@ I also opted to use accuracy because:
 
 ## Model Fit & Score
 
+![Alt text](Visualizations/roc.png)
+
 The final model had the following validation ROC of 0.90
 
 This value indicates better discrimination ability of the model which is approaching the maximum value of 1 for a perfect classifier.
@@ -146,10 +168,19 @@ This means that the final model has a high ability to distinguish between classe
 This model had an Accuracy of 0.94 which indicates that our model is able to predict correctly 94% 0f the cases and only miss 6%.
 
 
+## Model limitations
 
-## Model Conclusion
+In trying to fine tune the model to achieve better metrics score, i discovered that the model is easily overfitting on the training data. 
+This was attributed by lack of enough data so that the model could generalize well.
 
-In conclusion, based on this model's recall score and cost benefit analysis, using this model to predict the churn of SyriaTel's customers will result in a large cost savings, and even an opportunity to make money ($0.52 per customer per month). 
+## Recomedations
+
+- In future i would recommend the we collect more data so that the model can perform better by reducing overfitting.
+- I would recommend we get more data regarding competitors in states with higher churn rate and try to investigate their marketing strategy
+- I would recommend we investigate on cell signal across the US to look for patterns in states with higher churn rate.
+- i would also recomend we investigate the ability of the customer care representatives to handle the customers complaints and offer solution.
+
+ 
 
 
 
