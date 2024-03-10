@@ -56,7 +56,8 @@ During the exploratory data analysis (EDA) phase, I delved into the following in
 ### Does contacting customer service indicate dissatisfaction among customers or possibly foreshadow churn?
 **Findings**
 
-![Alt text!](visualizations\boxplot.png)
+![Alt text](visualizations/boxplot.png)
+
 
 The current churn rate within our training dataset stands at approximately 14.5%. Upon analyzing customer service interactions, it becomes evident that as the frequency of these calls rises, so does the probability of churn. Notably, when customers make four or more service calls, the likelihood of churn escalates from roughly 10% to 50%.
 
@@ -66,9 +67,9 @@ Going by these discoveries, it might be beneficial to consider providing a more 
 ### To what extent are individuals utilizing their plans, and what insights can this usage offer regarding churn?
 **Findings**
 
-![Alt text](Visualizations\histogram3.png)
+![Alt text](visualizations/histogram3.png)
 
-![Alt text](Visualizations\histogram4.png)
+![Alt text](visualizations/histogram4.png)
 
 It's evident that both the churned and non-churned customers maintained nearly identical usage patterns across day, evening, night, and international calls. Notably, the rates for international minutes remain constant at 27 cents per minute, irrespective of whether the customer possesses an international plan. Additionally, it's intriguing to observe that the churn rate was higher among customers with international plans compared to those without. This parity in international call charges suggests that churned customers with international plans might have perceived the plan's value differently, potentially leading them to believe that paying for the international plan wasn't worthwhile.
 
@@ -79,7 +80,7 @@ Based on this analysis, I suggest adjusting the rates for international minutes 
 ### Do customers residing in specific regions exhibit a higher propensity for churn?
 **Findings**
 
-![Alt text](Visualizations\histogram1.png)
+![Alt text](visualizations/histogram1.png)
 
 It's evident that certain states exhibit significantly higher churn rates. When analyzed by state, Texas stands out with a notably higher churn rate than any other state, sitting at 27%. New Jersey, Maryland, and California also show elevated churn rates, exceeding 23%. Conversely, states with the lowest churn include Hawaii and Iowa, each below 0.5%.
 
@@ -87,7 +88,7 @@ It's evident that certain states exhibit significantly higher churn rates. When 
 
 1. correlation
 
-![Alt text](Visualizations\correlation.png)
+![Alt text](visualizations/correlation.png)
 
 It is evident that most features exhibit no correlation, some demonstrate perfect correlation. 
 
@@ -97,13 +98,13 @@ The correlation coefficient of 1 indicates perfect multicollinearity, which affe
 
 2. Distribution of features
 
-![Alt text](Visualizations\ditributions.png)
+![Alt text](visualizations/distributions.png)
 
 It is also evident that most features are normally distributed wit exception of customer service calls which was skewed to the right.
 
 3. Class imbalance
 
-![Alt text](Visualizations\output.png)
+![Alt text](visualizations/output.png)
 
 There is also class imbalance of the dependent varible which needed to be adressed
 
