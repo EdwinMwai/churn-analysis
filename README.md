@@ -53,7 +53,7 @@ During the exploratory data analysis (EDA) phase, I delved into the following in
 * Do customers residing in specific regions exhibit a higher propensity for churn?
 
 
-## Does contacting customer service indicate dissatisfaction among customers or possibly foreshadow churn?
+### Does contacting customer service indicate dissatisfaction among customers or possibly foreshadow churn?
 **Findings**
 
 ![Alt text!](visualizations\boxplot.png)
@@ -63,7 +63,7 @@ The current churn rate within our training dataset stands at approximately 14.5%
 **Recommendation:**
 Going by these discoveries, it might be beneficial to consider providing a more substantial incentive or discount to customers who contact customer service more than three times.
 
-## To what extent are individuals utilizing their plans, and what insights can this usage offer regarding churn?
+### To what extent are individuals utilizing their plans, and what insights can this usage offer regarding churn?
 **Findings**
 
 ![Alt text](Visualizations\histogram3.png)
@@ -76,7 +76,7 @@ It's evident that both the churned and non-churned customers maintained nearly i
 
 Based on this analysis, I suggest adjusting the rates for international minutes such that Customers enrolled in an international plan should benefit from discounted rates for international calls compared to those without such a plan.
 
-## Do customers residing in specific regions exhibit a higher propensity for churn?
+### Do customers residing in specific regions exhibit a higher propensity for churn?
 **Findings**
 
 ![Alt text](Visualizations\histogram1.png)
