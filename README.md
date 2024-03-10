@@ -157,7 +157,8 @@ I also opted to use accuracy because:
 
 ## Model Fit & Score
 
-![Alt text](Visualizations\roc.png)
+![Alt text](visualizations/roc.png)
+
 
 The final model had the following validation ROC of 0.90
 
@@ -173,7 +174,7 @@ This model had an Accuracy of 0.94 which indicates that our model is able to pre
 In trying to fine tune the model to achieve better metrics score, i discovered that the model is easily overfitting on the training data. 
 This was attributed by lack of enough data so that the model could generalize well.
 
-### Recomedations
+### Recommendations
 
 - In future i would recommend the we collect more data so that the model can perform better by reducing overfitting.
 - I would recommend we get more data regarding competitors in states with higher churn rate and try to investigate their marketing strategy
