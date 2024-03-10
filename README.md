@@ -122,7 +122,7 @@ The output metrics were precision score, accuracy score, recall score and f1 sco
 
 I decided to fine tune gradient boosting classifier
 
-# Fine Tunning the model
+## Fine Tunning the model
 
 I set a parameter grid to be used in the hyperparameter tuning. The parameters to be tuned were maximum depth, learning rate and n-estimator. I also set a cross validation of 5 folds.
 
@@ -130,10 +130,10 @@ The model metrics improved with recall score being 0.77 from 0.74, F1 score bein
 This was the best that i could achieve from this model using this data set.
 
 
-# Model Analysis
+## Model Analysis
 
 
-## Metric Used
+### Metric Used
 In evaluating my model i used two metrics:
 
 1. ROC(Receiver Operating Characteristic) curve analysis
@@ -168,12 +168,12 @@ This means that the final model has a high ability to distinguish between classe
 This model had an Accuracy of 0.94 which indicates that our model is able to predict correctly 94% 0f the cases and only miss 6%.
 
 
-## Model limitations
+### Model limitations
 
 In trying to fine tune the model to achieve better metrics score, i discovered that the model is easily overfitting on the training data. 
 This was attributed by lack of enough data so that the model could generalize well.
 
-## Recomedations
+### Recomedations
 
 - In future i would recommend the we collect more data so that the model can perform better by reducing overfitting.
 - I would recommend we get more data regarding competitors in states with higher churn rate and try to investigate their marketing strategy
